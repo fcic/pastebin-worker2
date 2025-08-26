@@ -22,34 +22,34 @@ crons = ["0 0 * * *"]
 # lines below are what you should modify
 #----------------------------------------
 
-[[routes]]
-# Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
-pattern = "shz.al"
-custom_domain = true
+# [[routes]]
+# # Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
+# pattern = "shz.al"
+# custom_domain = true
 
 [[kv_namespaces]]
 binding = "PB"  # do not touch this
-id = "435f8959b9de485ea48751ba557d90f5"  # id of your KV namespace
+id = "651d25fb496e4356afa499d3957292a5"  # id of your KV namespace
 
 [[r2_buckets]]
 binding = "R2"  # do not touch this
-bucket_name = "pb-shz-al"  # bucket name of your R2 bucket
+bucket_name = "pastebins"  # bucket name of your R2 bucket
 
-[vars]
-# must be consistent with your routes
-DEPLOY_URL = "https://shz.al"
+# [vars]
+# # must be consistent with your routes
+# DEPLOY_URL = "https://shz.al"
 
 # url to repo, displayed in the index page
 REPO = "https://github.com/SharzyL/pastebin-worker"
 
 # the page title displayed in index page
-INDEX_PAGE_TITLE = "Pastebin Worker"
+INDEX_PAGE_TITLE = "Pastebin"
 
 # the name displayed in TOS
-TOS_MAINTAINER = "Sharzy"
+TOS_MAINTAINER = "fcic.cc"
 
 # the email displayed in TOS
-TOS_MAIL = "pb@shz.al"
+TOS_MAIL = "fcic@qq.com"
 
 # Cache-Control max-age for static pages
 CACHE_STATIC_PAGE_AGE = 7200
