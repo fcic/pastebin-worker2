@@ -35,9 +35,9 @@ id = "8afa9988eb0d4af8a192bef56ae6b303"  # id of your KV namespace
 binding = "R2"  # do not touch this
 bucket_name = "pastebins"  # bucket name of your R2 bucket
 
-# [vars]
+[vars]
 # # must be consistent with your routes
-# DEPLOY_URL = "https://shz.al"
+DEPLOY_URL = "https://share2.fcic.cc"
 
 # url to repo, displayed in the index page
 REPO = "https://github.com/SharzyL/pastebin-worker"
