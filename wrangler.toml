@@ -29,7 +29,7 @@ crons = ["0 0 * * *"]
 
 [[kv_namespaces]]
 binding = "PB"  # do not touch this
-id = "651d25fb496e4356afa499d3957292a5"  # id of your KV namespace
+id = "8afa9988eb0d4af8a192bef56ae6b303"  # id of your KV namespace
 
 [[r2_buckets]]
 binding = "R2"  # do not touch this
