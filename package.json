@@ -23,6 +23,7 @@
   "author": "SharzyL <me@sharzy.in>",
   "license": "MIT",
   "devDependencies": {
+    "packageManager": "yarn@1.22.22",
     "@cloudflare/vitest-pool-workers": "^0.8.22",
     "@craftamap/esbuild-plugin-html": "^0.9.0",
     "@testing-library/dom": "^10.4.0",
