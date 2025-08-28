@@ -212,7 +212,7 @@ export function PasteBin() {
         </Link>
         {" / "}
         <Link href={REPO} className={`d-inline-block ${tst}`}>
-          Repository
+          fcic.cc
         </Link>
       </p>
     </footer>

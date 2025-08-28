@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "packageManager": "yarn@1.22.22",
   "description": "Pastebin based on Cloudflare worker",
-  "repository": "https://github.com/SharzyL/pastebin-worker",
+  "repository": "https://fcic.cc",
   "type": "module",
   "scripts": {
     "deploy": "wrangler deploy",

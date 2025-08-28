@@ -43,7 +43,7 @@ DEPLOY_URL = "https://share2.fcic.cc"
 REPO = "https://github.com/SharzyL/pastebin-worker"
 
 # the page title displayed in index page
-INDEX_PAGE_TITLE = "Pastebin"
+INDEX_PAGE_TITLE = "fcicShare"
 
 # the name displayed in TOS
 TOS_MAINTAINER = "fcic.cc"
