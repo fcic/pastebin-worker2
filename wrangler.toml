@@ -40,7 +40,7 @@ bucket_name = "pastebins"  # bucket name of your R2 bucket
 DEPLOY_URL = "https://share2.fcic.cc"
 
 # url to repo, displayed in the index page
-REPO = "https://github.com/SharzyL/pastebin-worker"
+REPO = "https://fcic.cc"
 
 # the page title displayed in index page
 INDEX_PAGE_TITLE = "fcicShare"
